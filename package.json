@@ -1,0 +1,46 @@
+{
+  "name": "view-printer",
+  "version": "1.0.3",
+  "description": "A simpler printing method and more complete content printing. Tailored to the browser and customized for native use.",
+  "main": "dist/main.esm.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c -w",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huadongzhou/view-printer.git"
+  },
+  "keywords": [
+    "print",
+    "vue",
+    "vue2",
+    "vue3",
+    "vue-print-nb"
+  ],
+  "author": "huadongzhou",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/huadongzhou/view-printer/issues"
+  },
+  "homepage": "https://github.com/huadongzhou/view-printer#readme",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-runtime": "^7.25.4",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/runtime": "^7.25.6",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "core-js": "^3.38.1"
+  },
+  "browser": "dist/index.js",
+  "volta": {
+    "node": "20.17.0"
+  }
+}
