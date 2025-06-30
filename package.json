@@ -1,12 +1,12 @@
 {
   "name": "view-printer",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A simpler printing method and more complete content printing. Tailored to the browser and customized for native use.",
   "main": "dist/main.esm.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c -w",
+    "build": "rollup -c",
     "publish": "npm publish"
   },
   "repository": {
@@ -26,15 +26,14 @@
     "url": "https://github.com/huadongzhou/view-printer/issues"
   },
   "homepage": "https://github.com/huadongzhou/view-printer#readme",
-  "dependencies": {
-    "@rollup/plugin-terser": "^0.4.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/plugin-transform-runtime": "^7.25.4",
     "@babel/preset-env": "^7.25.4",
     "@babel/runtime": "^7.25.6",
     "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "core-js": "^3.38.1"

@@ -543,7 +543,7 @@ class Print {
                     }
                     @media print {
                         @page {
-                          size: ${this.paper_format} ${this.settings.format.direction};
+                          size: ${this.paper_format} auto;
                           margin: 0mm;
                           padding: 0mm;
                         }
